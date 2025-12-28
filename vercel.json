@@ -1,6 +1,5 @@
 {
-  "rootDirectory": "spotify-clone",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "buildCommand": "cd spotify-clone && npm run build",
+  "outputDirectory": "spotify-clone/dist",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
